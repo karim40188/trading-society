@@ -1,0 +1,38 @@
+.video_container {
+  position: relative;
+  width: 100%;
+  background: black;
+}
+
+.controller {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.slider input {
+  width: 100%;
+}
+
+.progress_wrapper {
+  position: relative;
+  height: 6px;
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.buffered_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.played_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #76c7c0;
+}
