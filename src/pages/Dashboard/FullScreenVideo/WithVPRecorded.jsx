@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 // import VideoController from "@/components/VideoController/index.jsx";
-import VideoController from "@/components/VideoController/index.jsx";
+import VideoController from "@/Components/VideoController/index.jsx";
 
 
 const WithVPRecorded = () => {

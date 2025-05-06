@@ -10,7 +10,7 @@ import OurCourses from "./OurCourses.jsx";
 import { FaStar } from "react-icons/fa";
 import { HiOutlineXMark } from "react-icons/hi2";
 import BannerProfile from "@/Components/HomeProfile/BannerProfile.jsx";
-import VideoController from "@/components/VideoController/index.jsx";
+import VideoController from "@/Components/VideoController/index.jsx";
 
 // component
 function AcademyProfile() {

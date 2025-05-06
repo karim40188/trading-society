@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Box } from "@mui/system";
 import { Typography } from "@mui/material";
 import FooterProfile from "@/Components/Layouts/Dashboard/FooterProfile.jsx";
-import VideoController from "@/components/VideoController/index.jsx";
+import  from "@/Components/VideoController/index.jsx";
 import LiveVideoCard from "./LiveVideoCard.jsx";
 
 import useApi from "@/api";
