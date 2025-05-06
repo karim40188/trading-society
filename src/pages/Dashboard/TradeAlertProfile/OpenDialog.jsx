@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Dialog, DialogContent } from "@mui/material";
-import TradeAlertWithId from "@/Pages/Dashboard/TradeAlertWithId/index.jsx";
+import TradeAlertWithId from "@/pages/Dashboard/TradeAlertWithId/index.jsx";
 
 function OpenDialog() {
   const navigate = useNavigate();
