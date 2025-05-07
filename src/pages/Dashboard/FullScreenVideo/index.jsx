@@ -19,59 +19,87 @@ const CustomVideoPlayer = () => {
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BEGINNER/MT5_mob.mp4":
         setSrc(
             "https://iframe.mediadelivery.net/embed/366951/2fc8e44c-1dcd-41ef-b3b0-5fded088b985?autoplay=true&loop=false&muted=false&preload=true&responsive=true"     
-        );   
+      // https://iframe.mediadelivery.net/embed/366951/2fc8e44c-1dcd-41ef-b3b0-5fded088b985
+      
+          );   
         break;
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BEGINNER/forex_introduction.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/8d671179-11f8-4f1c-982e-3ad8469bc8bb?autoplay=true&loop=false&muted=false&preload=true&responsive=true"
         );
         break;
+
+
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BEGINNER/MT5_pc.mp4":
         setSrc(
             "https://iframe.mediadelivery.net/embed/366951/a89cb27c-d8f0-413e-a79e-54ad67b92724?autoplay=true&loop=false&muted=false&preload=true&responsive=true"
         );
         break;
+
+
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BEGINNER/How_to_copy_signal.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/2fc8e44c-1dcd-41ef-b3b0-5fded088b985?autoplay=true&loop=false&muted=false&preload=true&responsive=true"
         );
         break;
+
+
       // Basics
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BASICS/common_mistake.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/7f5058ec-b15d-43a7-b78c-59c28227df89?autoplay=true&loop=false&muted=false&preload=true&responsive=true"          
         );
         break;
+
+
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BASICS/how_to_copy_signals_from_chart.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/d8534d79-c2dc-47fc-b6c0-58c6f5fc90e8?autoplay=true&loop=false&muted=false&preload=true&responsive=true"          
         );
         break;
+
+
+
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BASICS/orders_types.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/dc42d388-ed1f-497c-b30b-00f394e0dae4?autoplay=true&loop=false&muted=false&preload=true&responsive=true"
         );
         break;
+
+
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BASICS/pip_value.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/77a939a4-a235-4077-aca2-e2b8648e9e83?autoplay=true&loop=false&muted=false&preload=true&responsive=true"
         );
         break;
+
+
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BASICS/pips.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/5e6e7ee6-0551-478b-96e3-3477ed158259?autoplay=true&loop=false&muted=false&preload=true&responsive=true"
         );
         break;
+
+
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BASICS/Risk_mangemant.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/9820805b-4a0e-4ca3-8c7a-83224f1b2158?autoplay=true&loop=false&muted=false&preload=true&responsive=true"
         );
         break;
+
+        
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/BASICS/What_lot_size_means.mp4":
         setSrc(
           "https://iframe.mediadelivery.net/embed/366951/6d536d79-3069-4690-8cdf-7f92bbee9b03?autoplay=true&loop=false&muted=false&preload=true&responsive=true" 
         );
         break;
+
+
+
+
+
+
+
       // Advanced
       case "https://laravelapi.tradingsociety.net//uploads/vedios/courses_videos/FAWZI/advanced/candlestick.mp4":
         setSrc(

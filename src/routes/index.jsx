@@ -33,6 +33,11 @@ import Redirect from "../pages/Redirect"; // Import the Redirect component
 import VideoPage from "@/pages/Dashboard/UserRecordedSession/VideoPage";
 import MemberTermsAndConditions from "@/pages/MemberTermsAndConditions";
 import PoliciesAndProcedures from "@/pages/Policies&Procedures";
+import CoursesPage from "../pages/CoursesPage/CoursesPage";
+import BeginnerCourses from "../pages/CoursesPage/BeginnerCourses";
+import BasicsCourses from "../pages/CoursesPage/BasicsCourses";
+import AdvancedCourses from "../pages/CoursesPage/AdvancedCourses";
+
 // routes
 const router = createBrowserRouter([
   { index: true, element: <LandingPage /> },
@@ -75,6 +80,22 @@ const router = createBrowserRouter([
       {
         path: "news",
         element: <News />,
+      },
+      {
+        path: "/courses",
+        element: <CoursesPage />,
+      },
+      {
+        path: "/courses/beginner",
+        element: <BeginnerCourses />,
+      },
+      {
+        path: '/courses/basics',
+        element: <BasicsCourses />,
+      },
+      {
+        path: '/courses/advanced',
+        element: <AdvancedCourses />,
       },
       {
         path: "courses/:id",

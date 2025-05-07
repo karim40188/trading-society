@@ -11,6 +11,7 @@ import { FaStar } from "react-icons/fa";
 import { HiOutlineXMark } from "react-icons/hi2";
 import BannerProfile from "@/Components/HomeProfile/BannerProfile.jsx";
 import VideoController from "@/Components/VideoController/index.jsx";
+import CoursesPage from "../../CoursesPage/CoursesPage.jsx";
 
 // component
 function AcademyProfile() {
@@ -342,7 +343,7 @@ function AcademyProfile() {
             </Box>
           </motion.div>
         )}
-        <OurCourses />
+        <CoursesPage />
       </Box>
     </>
   );
